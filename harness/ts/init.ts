@@ -7,7 +7,7 @@ const edge = 'MicrosoftEdge';
 
 const db = new Database('results.sqlite');
 
-const ITERATIONS = 3
+const ITERATIONS = 10
 
 db.exec(`CREATE TABLE IF NOT EXISTS timing
   (ix INTEGER NOT NULL,
